@@ -815,6 +815,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "camcraft-i18n"
+version = "0.24.0"
+
+[[package]]
 name = "camcraft-kernel"
 version = "0.24.0"
 dependencies = [
@@ -893,6 +897,7 @@ name = "camcraft-ui"
 version = "0.24.0"
 dependencies = [
  "camcraft-app",
+ "camcraft-i18n",
  "chrono",
  "eframe",
  "egui",
